@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Calculator.h"
+#include "CalculatorTravelTime.h"
 using namespace std;
 
 int main() {
@@ -11,8 +12,8 @@ int main() {
     // Ejemplo (cuando tengas tu clase):
     // calcs[count++] = new MyCalculator(...);
     // =============================
-
     // Ejecutar todas las calculadoras
+    calcs[count++] = new CalculatorTravelTime(50,50);
     for (int i = 0; i < count; i++) {
         calcs[i]->calculate();
         calcs[i]->print();

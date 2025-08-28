@@ -18,9 +18,15 @@
     <ClCompile Include="calculatorFactory.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="CalculatorTravelTime.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculatorTravelTime.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
