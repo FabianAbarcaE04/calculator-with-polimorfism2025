@@ -18,7 +18,11 @@
     <ClCompile Include="calculatorFactory.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="CalculatorTravelTime.cpp">
+=======
+    <ClCompile Include="BasicCalculator.cpp">
+>>>>>>> 24a0703da90d7c9223823e9cc96b9119f6579e9b
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,7 +30,11 @@
     <ClInclude Include="Calculator.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="CalculatorTravelTime.h">
+=======
+    <ClInclude Include="BasicCalculator.h">
+>>>>>>> 24a0703da90d7c9223823e9cc96b9119f6579e9b
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

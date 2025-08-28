@@ -123,10 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="calculatorFactory.cpp" />
     <ClCompile Include="CalculatorTravelTime.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BasicCalculator.h" />
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="CalculatorTravelTime.h" />
   </ItemGroup>
