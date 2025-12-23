@@ -22,7 +22,6 @@ int main() {
 	for (int i = 0; i < count; i++) {
 		delete calcs[i];
 	}
-	//PRUEBA COMMIT
 
 	return 0;
 }
